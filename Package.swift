@@ -9,11 +9,11 @@ func buildTargets() -> [Target] {
     let baseURL = "https://github.com/bioche/RealmBinaries/releases/download/\(realmVersion)"
     
 #if swift(>=5.5.2)
-    let xcodeVersion = "12_0"
+    let xcodeVersion = "13_2"
     let realmChecksum = "d4835551aca67af143bf4625effd1871b50bfd25352fc32c369aff2c103dd1f4"
     let realmSwiftChecksum = "41db3c8a529d114fd6d116fb28be3e6161d3fe608fb04f970844946b8bd3a302"
 #else
-    let xcodeVersion = "12_0"
+    let xcodeVersion = "13_1"
     let realmChecksum = "f7b6d63a29d04b8fa51a366163701ed0bce2f8e0ef696aededa2918bc302bd83"
     let realmSwiftChecksum = "a70101578af77948e628c8e436eeecaf312deb48b9d6b262cc1ffa036bd2b7d2"
 #endif
