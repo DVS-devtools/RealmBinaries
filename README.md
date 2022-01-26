@@ -1,2 +1,4 @@
 # RealmBinaries
-Vends Realm xcframeworks via SPM to save build time
+
+vers xcode 12.0
+vers ios 12.0
