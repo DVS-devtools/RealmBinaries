@@ -31,12 +31,11 @@ func buildTargets() -> [Target] {
         )
     ]
 }
-
+// Binari compilati e caricati su github da "bioche", da rivedere questa cosa
 let package = Package(
     name: "RealmBinaries",
     platforms: [.iOS("12.0")],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Realm",
             targets: ["Realm"]),
